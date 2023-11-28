@@ -1,0 +1,252 @@
+*:root{
+	--mainColor:#eaeaea;
+	--secondaryColor:#fff;
+
+	--borderColor:#c1c1c1;
+
+	--mainText:black;
+	--secondaryText:#4b5156;
+
+	--themeDotBorder:#24292e;
+
+	--previewBg:rgb(251, 249, 243, 0.8);
+	--previewShadow:#f0ead6;
+
+
+	--buttonColor:black;*
+}
+
+
+.navbar{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+
+}
+
+.navbar-brand{
+
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.navbar-nav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+	padding-left: 100px;
+	list-style-type: none;
+	margin-left: 350px;
+}
+.nav-item{
+    padding-left: 12px;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.row{
+display: flex;
+justify-content: space-between;
+}
+.imge{
+   margin-left: 60px;
+}
+
+.s1-ontainer{
+    border: 1px solid black;
+    margin: 0px 40px 30px 60px;
+
+}
+
+.col{
+  border: 1px solid black;
+  width: 500px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.s2-ontainer{
+  border: 1px solid black;
+  margin: 0px 40px 30px 60px;
+  background-color: white;
+
+}
+
+.accordion-button{
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+
+}
+
+.accordion-body{
+    display: none;
+
+}
+.show{
+    display: block;
+}
+
+.s3-container{
+    display: gri
+    grid-template-columns: 1fr 1fr
+	border: 1px solid black;
+    margin: 0px 60px 30px 60px;
+}
+
+#skills{
+    background-image: radial-gradient(rgba( 0, 0, 122, 0.32), rgba(0, 0, 200, 0.68)), url("/images/project/comp.svg");
+    background-repeat: no-repeat;
+}
+
+.s2{
+    background-image: radial-gradient(rgba( 0, 0, 122, 0.32), rgba(0, 0, 200, 0.68)), url("/images/project/mac.svg");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+form{
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+	border: 1px solid var(--borderColor);
+	padding: 15px;
+	border-radius: 5px;
+	background-color: var(--mainColor);
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+
+form label{
+	line-height: 2.7em;
+}
+
+form text {
+	min-height: 100px;
+	font-size: 14px;
+}
+
+
+input[type=text], input[type=email]{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	background-color: var(--secondaryColor);
+	border-radius: 5px;
+	border:1px solid var(--borderColor);
+	font-size: 14px;
+}
+
+
+.submit-btn{
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	color: #fff;
+	background-color: var(--buttonColor);
+	border:none;
+}
+
+form textarea{
+	min-height: 100px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.contain {
+  background:  #fff;
+  border:2px solid #c1c1c1;
+  border-radius: 20px !important;
+  text-align: center;
+  max-width: 364px;
+  padding: 24px;
+  background: white;
+  color: rgb(14, 30, 37);
+  margin-top: 200px;
+  margin-left: 0px;
+
+}
+
+.body2 {
+  background: rgb(14, 30, 37) !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  background:  #fff;
+  border:2px solid #c1c1c1;
+  border-radius: 20px !important;
+  text-align: center;
+  max-width: 364px;
+  padding: 24px;
+  background: white;
+  color: rgb(14, 30, 37);
+  margin-top: 20    0px;
+  margin-left   : 0px;
+
+}
+
+.body2 {
+  background: rgb(14, 30, 37) !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cust{
+  color: black;
+}
+
+.cust:hover {
+  color: #ffc200;
+}
+.ratingss{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rating2{
+     margin-right: 50px;
+}
+
+.checked {
+  color: orange;
+}
+
+.accordion-header{
+  font-size: 18px;
+}
+
+#me {
+    width: 80%;
+    filter: drop-shadow(0 0 0.45rem grey);
+}
+
+@media screen and (max-width: 992px){
+.accordion-header{
+  font-size: 12px;
+}
+}
+
+https://vic-prof.herokuapp.com/
