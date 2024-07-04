@@ -12,6 +12,3 @@ python3.9 manage.py collectstatics --noinput --clear
 
 echo "BUILD END"
 
-git remote add origin https://github.com/victorsmart99998/portfolio2.git
-git branch -M main
-git push -u origin main
