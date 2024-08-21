@@ -105,7 +105,7 @@ justify-content: space-between;
     display: gri
     grid-template-columns: 1fr 1fr
 	border: 1px solid black;
-    margin: 0px 60px 30px 60px;
+    margin: 0px 10px 30px 10px;
 }
 
 #skills{
@@ -133,9 +133,6 @@ form{
 }
 
 
-form label{
-	line-height: 2.7em;
-}
 
 form text {
 	min-height: 100px;

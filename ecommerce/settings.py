@@ -78,15 +78,14 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': '5DFbe3ea-FeAEdA4D*CG6C-5AC*F4f3F',
-        'HOST': 'monorail.proxy.rlwy.net',
-        'PORT': '34178',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres.novlxcotresenfaycxwl',
+        'PASSWORD': '2zv.s4GH#ypDs#S',
+        'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
+        'PORT': '6543',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
